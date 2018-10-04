@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Card Activity</string>
+    <string name="Elesis">Elesis Sieghart</string>
+    <string name="Elesis_Title">Grand Chase Leader</string>
+    <string name="Elesis_Description">Elesis was born as the eldest daughter of the Sieghart family. She was trained as hard as possible since she was old enough to handle a sword and has been the captain of the Ruby Knights for several years</string>
+
+    <string name="Lire">Lire Eryuell</string>
+    <string name="Lire_Title">Sun Shooting Marksman</string>
+    <string name="Lire_Description">Lire who was born on Eryuell Island grew up following the elves tradition and customs of avoiding fighting at all costs and to live in harmony. With the signs of change in the world, Lire cherished the thought of, one day, adventuring to the outside world</string>
+
+    <string name="Arme">Arme Glenstid</string>
+    <string name="Arme_Title">Grand Mage</string>
+    <string name="Arme_Description">Arme was called the cursed child due to all the destruction she would leave around the village. She had been born with a magic power that was beyond her control and in the end, her parents, who could no longer handle it, left her at the steps of the Violet Mage Guild. </string>
+
+    <string name="ElesisImage">Elesis Sieghart</string>
+    <string name="LireImage">Lire Eryuell</string>
+    <string name="ArmeImage">Arme Glenstid</string>
+</resources>

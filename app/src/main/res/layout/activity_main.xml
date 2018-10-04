@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Elesis"
+        style="@style/CharacterName"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20sp"
+        android:text="@string/Elesis" />
+
+    <TextView
+        android:id="@+id/ElesisTitle"
+        style="@style/CharacterTitle"
+
+        android:layout_alignStart="@+id/Elesis"
+        android:layout_below="@+id/Elesis"
+        android:text="@string/Elesis_Title" />
+
+    <ImageView
+        android:id="@+id/ElesisImage"
+        style="@style/CharacterImage"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignTop="@+id/Elesis"
+        android:contentDescription="@string/Elesis"
+        app:srcCompat="@drawable/elesis_sieghart" />
+
+    <TextView
+        android:id="@+id/ElesisDescription"
+        style="@style/CharacterDescription"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ElesisImage"
+        android:layout_marginRight="20sp"
+        android:text="@string/Elesis_Description" />
+
+    <TextView
+        android:id="@+id/Lire"
+        style="@style/CharacterName"
+
+        android:layout_alignStart="@+id/Elesis"
+        android:layout_below="@+id/ElesisDescription"
+        android:text="@string/Lire" />
+
+    <TextView
+        android:id="@+id/LireTitle"
+        style="@style/CharacterTitle"
+        android:layout_alignStart="@+id/Lire"
+        android:layout_below="@+id/Lire"
+        android:text="@string/Lire_Title" />
+
+    <ImageView
+        android:id="@+id/LireImage"
+        style="@style/CharacterImage"
+        android:layout_alignStart="@+id/ElesisImage"
+
+        android:layout_alignTop="@+id/Lire"
+        android:contentDescription="@string/Lire"
+        app:srcCompat="@drawable/lire_eryuell" />
+
+    <TextView
+        android:id="@+id/LireDescription"
+        style="@style/CharacterDescription"
+        android:layout_below="@+id/LireImage"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Lire_Description" />
+
+    <TextView
+        android:id="@+id/Arme"
+        style="@style/CharacterName"
+        android:layout_alignStart="@+id/Elesis"
+        android:layout_below="@+id/LireDescription"
+        android:text="@string/Arme" />
+
+    <TextView
+        android:id="@+id/ArmeTitle"
+        style="@style/CharacterTitle"
+
+        android:layout_alignStart="@+id/Elesis"
+        android:layout_below="@+id/Arme"
+        android:text="@string/Arme_Title" />
+
+    <ImageView
+        android:id="@+id/ArmeImage"
+        style="@style/CharacterImage"
+
+        android:layout_alignStart="@+id/ElesisImage"
+        android:layout_alignTop="@+id/Arme"
+        app:srcCompat="@drawable/arme_glenstid" />
+
+    <TextView
+        android:id="@+id/ArmeDescription"
+        style="@style/CharacterDescription"
+
+        android:layout_below="@+id/ArmeImage"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Arme_Description" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#92bbc1"
+        android:onClick="Magic"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#92bbc1"
+        android:onClick="Magic"
+        android:text="Map" />
+
+</RelativeLayout>
